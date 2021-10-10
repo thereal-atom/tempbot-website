@@ -6,10 +6,13 @@
     <div class="pt-8 pl-6 text-gray-400 font-bold text-lg flex flex-col text-left">
         <p>GENERAL</p>
         <button class="text-left pl-2 py-2 mt-2 mr-6 bg-gray-500 text-gray-100 transition-all rounded-md flex"><i class='pt-1 pr-2 text-lg bx bxs-comment-dots' ></i> Guild</button>
-        <button class="text-left pl-2 py-2 mt-2 mr-6 hover:bg-gray-500 hover:text-gray-100 transition-all rounded-md flex"><i class='pt-1 pr-2 text-lg bx bxs-mouse-alt'></i> Auto-mod</button>
-        <button class="text-left pl-2 py-2 mt-2 mr-6 hover:bg-gray-500 hover:text-gray-100 transition-all rounded-md flex"><i class='pt-1 pr-2 text-lg bx bx-code-alt' ></i> Commands</button>
-        <p class="mt-8">STATS</p>
-        <button class="text-left pl-2 py-2 mt-2 mr-6 hover:bg-gray-500 hover:text-gray-100 transition-all rounded-md flex"><i class='pt-1 pr-2 text-lg bx bx-line-chart' ></i> Guild</button>
+        <button class="text-left pl-2 py-2 mt-2 mr-6 hover:bg-gray-500 hover:text-gray-100 transition-all rounded-md flex"><i class='pt-1 pr-2 text-lg bx bx-add-to-queue' ></i> Create Temporary</button>
+        <button class="text-left pl-2 py-2 mt-2 mr-6 hover:bg-gray-500 hover:text-gray-100 transition-all rounded-md flex"><i class='pt-1 pr-2 text-lg bx bxs-time' ></i> View Existing</button>
+        <button class="text-left pl-2 py-2 mt-2 mr-6 hover:bg-gray-500 hover:text-gray-100 transition-all rounded-md flex"><i class='pt-1 pr-2 text-lg bx bxs-envelope-open' ></i> Open Tickets</button>
+        <p class="pt-4">CONFIG</p>
+        <button class="text-left pl-2 py-2 mt-2 mr-6 hover:bg-gray-500 hover:text-gray-100 transition-all rounded-md flex"><i class='pt-1 pr-2 text-lg bx bx-support' ></i> Tickets</button>
+        <button class="text-left pl-2 py-2 mt-2 mr-6 hover:bg-gray-500 hover:text-gray-100 transition-all rounded-md flex"><i class='pt-1 pr-2 text-lg bx bx-list-ol' ></i> Permissions</button>
+        <button class="text-left pl-2 py-2 mt-2 mr-6 hover:bg-gray-500 hover:text-gray-100 transition-all rounded-md flex"><i class='pt-1 pr-2 text-lg bx bxs-timer' ></i>Temporary</button>
     </div>
 </div>
 
