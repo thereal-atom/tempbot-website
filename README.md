@@ -1,3 +1,3 @@
-#tempbot 
+# tempbot 
 
-Website for the projecct tempbot: https://github.com/thereal-atom/tempbot-website.git
+## Website for the tempbot project: https://github.com/thereal-atom/tempbot-website.git
