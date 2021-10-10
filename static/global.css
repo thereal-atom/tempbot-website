@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  scrollbar-color: rgb(85, 85, 105) #2c3142;
+	scrollbar-width: thin;
+}
+body {
+  background-color: #2c3142;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+*::-webkit-scrollbar-track {
+  background: #2c3142; /* color of the tracking area */
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(85, 85, 105); /* color of the scroll thumb */
+  border-radius: 12px; /* roundness of the scroll thumb */
+  border: 3px solid #2c3142; /* creates padding around scroll thumb */
+}
