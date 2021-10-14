@@ -6,14 +6,15 @@
     "dev": "sapper dev",
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
-
     "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
-    "build:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css" ,
+    "build:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css",
     "build": "npm run build:tailwind && sapper build --legacy"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
+    "axios": "^0.22.0",
     "compression": "^1.7.1",
+    "date-fns": "^2.25.0",
     "polka": "next",
     "sirv": "^1.0.0"
   },

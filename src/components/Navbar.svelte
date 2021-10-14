@@ -3,7 +3,7 @@
     let navButton = "pl-8 pr-8 h-10 bg-gray-700 rounded-md mr-8 font-bold text-lg flex items-center justify-center cursor-pointer transition-all text-gray-100";
 </script>
 <div>
-    <div class="w-full h-24 flex flex-row items-center justify-center text-white fixed bg-gray-800" id="nav-container">
+    <div class="w-full h-24 flex flex-row items-center justify-center text-white" id="nav-container">
         <div class="h-full w-3/4 flex items-center pl-12" id="nav-links" style={{backgroundColor: "#212430"}}>
             <svg width="47" height="39" viewBox="0 0 94 78" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="62" cy="46" r="28" stroke="#7A86F2" stroke-width="8"/>

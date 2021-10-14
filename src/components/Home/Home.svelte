@@ -1,5 +1,5 @@
 <div>
-<div class="w-screen h-screen  flex justify-center items-center flex-row text-white">
+<div class="w-screen flex justify-center items-center flex-row text-white" style="height: 45rem">
     <div class="flex flex-col max-w-lg pr-16 mr-32">
         <h1 class="font-bold text-8xl pb-8">TempBot</h1>
         <p class="font-bold text-2xl text-gray-300">Create and manage temporary roles, channels, vcs and more with TempBot.</p>
