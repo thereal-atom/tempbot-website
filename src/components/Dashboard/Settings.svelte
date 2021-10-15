@@ -11,9 +11,7 @@
     import Tickets from "./General/TempBoxes/Tickets.svelte"
     
     let activityContainer = "w-11/12 mt-16 flex flex-row font-bold text-gray-300";
-    let gray = "text-gray-400"
-    let border = "border-bottom: 4px solid rgba(165, 180, 252);"
-    let box = " bg-gray-700 rounded-md p-4 h-64 w-1/2 overflow-clip overflow-x-hidden";
+    export let guildId;
 
     let temp;
     let activityArray;
@@ -22,7 +20,7 @@
     let rolesArray;
 
     onMount(async () => {
-        const res = await fetch("http://localhost:50451/dashboard/889223726468579338/temp");
+        const res = await fetch(`http://localhost:50451/dashboard/${guildId}/temp`);
         temp = await res.json()
         console.log(temp[0].type.toLowerCase() === "channel" && temp[0].exists);
         activityArray =  temp.filter(action => action.type !== "ticket").sort((a, b) => b.number - a.number);

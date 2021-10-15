@@ -8,7 +8,8 @@
     "start": "node __sapper__/build",
     "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
     "build:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css",
-    "build": "npm run build:tailwind && sapper build --legacy"
+    "build": "npm run build:tailwind && sapper build --legacy",
+    "css": "npm run watch:tailwind"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
